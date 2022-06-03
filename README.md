@@ -5,7 +5,7 @@ Se houver consultas,procuro respeitar a estrutura relacional.
 Se há problemas de desempenho, antes de testar soluções, sei há configurações estabelecidas na adm. do banco para permitir que um hint seja executado, ou não. E sei tambem que uma  mesma consulta, não gera necessariamente, o mesmo plano de execução, em ambientes diferentes 
 
 ----------------------------------------------------------------------
-Questão  2
+Questão  2:
 class Cls35{
 public static void main(String[] args){
 for(int i = 1; i <= 100; i++) {
@@ -21,7 +21,7 @@ System.out.println("FooBaa");
 }
 
 ----------------------------------------------------------------------
-Questão 5
+Questão 5:
 select
 case
 when N.nota < 8 THEN 'NULL' when N.nota >- 8 THEN A.nome
@@ -38,7 +38,7 @@ and
 A.valor >= N.min
 order by N.nota desc, A.nome asc;
 ----------------------------------------------------------------------
-Questão 8
+Questão 8:
 select distinct name from 
 (
 select name from cats
@@ -46,10 +46,10 @@ union all
 select name from dogs
 )animals
 ----------------------------------------------------------------------
-Questão 10
+Questão 10:
 Resposta : Será sempre 0
 -----------------------------------------------------------------------
-Questão 11e 12
+Questão 11e 12 :
 
 --BLOCO ANONIMO
 declare
