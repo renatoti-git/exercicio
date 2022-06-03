@@ -168,6 +168,7 @@ begin
        v_equipe_responsavel := 0;
        v_msg_ret  := -1;
    end if ;
+   
    -- caso exista a equipe mas esta inativa
    if nvl(v_status, 0) = 0 then
        v_equipe_responsave := 0;
