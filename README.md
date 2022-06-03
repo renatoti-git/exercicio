@@ -64,14 +64,8 @@ union all
 select name from dogs
 )animals
 
-
-
-
 ----------------------------------------------------------------------
 Questão 9:
-
-
-
 
 bloco anonimo
  declare 
