@@ -176,9 +176,9 @@ begin
    
    update  tb_equipe set oid = nr_sequencial where nome = pnome ;
    
-   insert into tb_equipe_tarefa (oid,nome,data_criacao,area,equipe_responsavel)values (nr_sequencial, p_nome,v_data,v_area,    v_equipe_responsavel )
+   insert into tb_equipe_tarefa (oid,nome,data_criacao,area,equipe_responsavel)values (nr_sequencial, p_nome,v_data,v_area,v_equipe_responsavel)
    
-   insert into tb_equipe_log(oid,data,codigo,descricao,equipe_responsavel)values (nr_sequencial, v_data,'codigo','descrição', v_equipe_responsavel  )
+   insert into tb_equipe_log(oid,data,codigo,descricao,equipe_responsavel)values (nr_sequencial, v_data,'codigo','descrição',v_equipe_responsavel )
     return 0 ;
     
 
