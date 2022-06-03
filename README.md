@@ -26,8 +26,8 @@ select
 case
 when N.nota < 8 THEN 'NULL' when N.nota >- 8 THEN A.nome
 end
-Aluno.id, 
-Aluno.valor
+A.id, 
+A.valor
 from Nota
 N Aluno A
 where
