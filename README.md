@@ -32,6 +32,30 @@ and
 A.valor >= N.min
 order by N.nota desc, A.nome asc;
 ----------------------------------------------------------------------
+Questão 7: 
+
+import java.util.Scanner;
+
+public class ContaLetraNome {
+
+    public static void main(String[] args) {
+ 
+     Scanner entrada = new Scanner(System.in);
+        String Nome;
+      System.out.println("Digite seu nome: ");
+        Nome = entrada.nextLine();
+        char[] chars = Nome.toCharArray();
+
+        for (char ch : chars) {
+            System.out.println(ch);
+            contaletra = contaletra +1 ;
+        }
+              System.out.println("Total de digitos do nome: "+contaletra );
+    }
+}
+
+
+----------------------------------------------------------------------
 Questão 8:
 select distinct name from 
 (
@@ -39,6 +63,10 @@ select name from cats
 union all
 select name from dogs
 )animals
+
+
+
+
 ----------------------------------------------------------------------
 Questão 9:
 
